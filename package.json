@@ -1,0 +1,19 @@
+{
+  "name": "agent-pesquisa-de-fornecedores",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Codex integration surface for the local AIOX workspace",
+  "scripts": {
+    "sync:ide": "node .aiox-core/infrastructure/scripts/ide-sync/index.js sync",
+    "sync:ide:validate": "node .aiox-core/infrastructure/scripts/ide-sync/index.js validate",
+    "sync:ide:check": "node .aiox-core/infrastructure/scripts/ide-sync/index.js validate --strict",
+    "sync:ide:codex": "node .aiox-core/infrastructure/scripts/ide-sync/index.js sync --ide codex",
+    "sync:skills:codex": "node .aiox-core/infrastructure/scripts/codex-skills-sync/index.js",
+    "sync:skills:codex:global": "node .aiox-core/infrastructure/scripts/codex-skills-sync/index.js --global-only",
+    "validate:agents": "node .aiox-core/infrastructure/scripts/validate-agents.js",
+    "validate:codex-sync": "node .aiox-core/infrastructure/scripts/ide-sync/index.js validate --ide codex --strict",
+    "validate:codex-integration": "node .aiox-core/infrastructure/scripts/validate-codex-integration.js",
+    "validate:codex-skills": "node .aiox-core/infrastructure/scripts/codex-skills-sync/validate.js --strict",
+    "validate:paths": "node .aiox-core/infrastructure/scripts/validate-paths.js"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "version": "1.0",
+    "project": "11_Agent_Pesquisa-de-Fornecedores",
+    "workspace": "C:/Users/narzu/Documents/Repositorios-Narzus/11_Agent_Pesquisa-de-Fornecedores",
+    "agents": {
+        "enabled": true,
+        "directory": ".antigravity\\agents",
+        "default": "aiox-master"
+    },
+    "rules": {
+        "enabled": true,
+        "file": ".antigravity\\rules.md"
+    },
+    "features": {
+        "storyDrivenDevelopment": true,
+        "agentActivation": true,
+        "workflowAutomation": true
+    },
+    "paths": {
+        "stories": "docs/stories",
+        "prd": "docs/prd",
+        "architecture": "docs/architecture",
+        "tasks": ".aiox-core/tasks",
+        "workflows": ".aiox-core/workflows"
+    }
+}
