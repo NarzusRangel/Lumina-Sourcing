@@ -1,6 +1,8 @@
 # Modelos de payload
 
-## Criar fornecedor
+Use estes modelos apenas como referencia canonica para previews. Ajuste os valores ao caso real sem inventar campos.
+
+## Preview de criar fornecedor
 ```json
 {
   "operacao": "criar fornecedor",
@@ -18,7 +20,7 @@
 }
 ```
 
-## Criar contato
+## Preview de criar contato
 ```json
 {
   "operacao": "criar contato",
@@ -36,7 +38,7 @@
 }
 ```
 
-## Criar item normalizado
+## Preview de criar item normalizado
 ```json
 {
   "operacao": "criar item normalizado",
@@ -52,12 +54,13 @@
 }
 ```
 
-## Atualizar registro
+## Preview de atualizar registro
 ```json
 {
   "operacao": "atualizar",
   "base": "",
   "registro_alvo": "",
-  "campos_alterados": {}
+  "campos_alterados": {},
+  "relacoes_impactadas": []
 }
 ```

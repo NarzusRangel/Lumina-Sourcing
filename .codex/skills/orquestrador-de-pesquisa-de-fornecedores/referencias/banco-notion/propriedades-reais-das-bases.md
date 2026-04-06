@@ -1,5 +1,7 @@
 # Propriedades reais das bases
 
+Use apenas estes nomes nos payloads e previews. Nao renomeie propriedades.
+
 ## `Fornecedores`
 - `Nome do fornecedor`
 - `Tipo de fornecedor`
@@ -32,7 +34,14 @@
 - `Criado em`
 - `Atualizado em`
 
-## Diferencas importantes
-- `Fornecedores` e `Contatos de Fornecedores` usam `Responsável pelo cadastro`.
-- `Catalogo de Materiais / Componentes` usa `Responsável`.
+## Diferencas criticas operacionais
+- `Fornecedores` e `Contatos de Fornecedores` usam `Responsavel pelo cadastro`.
+- `Catalogo de Materiais / Componentes` usa `Responsavel`.
+- `Contatos relacionados`, `Fornecedores Relacionados` e `Itens relacionados` sao relacoes e devem ser tratadas como tal.
 - Os vocabularios de familia/material ainda nao sao identicos entre as bases.
+
+## Observacoes de uso
+- Em busca, mostre apenas as propriedades relevantes para a pergunta do usuario.
+- Em registro e atualizacao, monte preview usando os nomes exatos acima.
+- Nao invente propriedades auxiliares fora do preview textual da skill.
+

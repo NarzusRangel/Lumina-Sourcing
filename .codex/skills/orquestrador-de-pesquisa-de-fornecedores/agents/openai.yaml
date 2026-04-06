@@ -1,7 +1,7 @@
 interface:
   display_name: "Orquestrador de Pesquisa de Fornecedores"
-  short_description: "Pesquisa, Notion e RFQ com fluxo guiado"
-  default_prompt: "Use $orquestrador-de-pesquisa-de-fornecedores para pesquisar fornecedores, estruturar cadastros no Notion ou gerar RFQs com fluxo guiado."
+  short_description: "Pesquisa estruturada, Notion seguro e RFQ guiado"
+  default_prompt: "Use $orquestrador-de-pesquisa-de-fornecedores para pesquisar fornecedores com shortlist em cards, preparar previews seguros de busca/registro/atualizacao no Notion ou gerar RFQs e follow-ups guiados."
 
 policy:
   allow_implicit_invocation: true

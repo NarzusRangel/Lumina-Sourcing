@@ -15,6 +15,16 @@ Orientar cadastro e atualizacao de fornecedores, contatos e materiais no Notion 
 - `Contatos de Fornecedores`
 - `Catalogo de Materiais / Componentes`
 
+## Preview minimo obrigatorio
+Antes de pedir autorizacao para gravar, mostre:
+- operacao alvo
+- base alvo
+- registro alvo, quando houver
+- campos do payload
+- relacoes impactadas
+- lacunas remanescentes, quando houver
+- a frase: `A gravacao no Notion depende de autorizacao explicita do usuario.`
+
 ## Saida esperada
 - payload de cadastro ou atualizacao pronto para gravacao
 - indicacao clara da operacao alvo
