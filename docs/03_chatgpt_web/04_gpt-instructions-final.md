@@ -7,7 +7,7 @@ owner: "A definir (Lumina Group)"
 reviewed_at: "2026-03-30"
 next_review: "2026-06-30"
 derived_from:
-  - "docs/03_chatgpt_web/01_gpt-instructions-source.md"
+  - ".codex/skills/orquestrador-de-pesquisa-de-fornecedores/referencias/pesquisa/instrucao-canonica-de-pesquisa.md"
 ---
 
 # GPT Instructions Final
@@ -181,6 +181,6 @@ Confirme:
 
 ## Observações de uso
 - Este arquivo é o artefato de publicação.
-- Mudanças de regra devem acontecer primeiro em `01_gpt-instructions-source.md`.
+- Mudanças de regra devem acontecer primeiro na skill `orquestrador-de-pesquisa-de-fornecedores`.
 - Antes de colar na interface final, revisar apenas limites de tamanho e formatação exigidos pela ferramenta.
-- Esta versão foi usada como referência canônica para sincronizar a skill `supplier-research-orchestrator`.
+- Esta versão foi usada como referência canônica para sincronizar a skill `orquestrador-de-pesquisa-de-fornecedores`.

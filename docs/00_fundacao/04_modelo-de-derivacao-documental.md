@@ -7,7 +7,7 @@ owner: "A definir (Lumina Group)"
 reviewed_at: "2026-03-29"
 next_review: "2026-06-29"
 derived_from:
-  - "Arquitetura Nova Para Framework de Pesquisa de Fornecedores.md"
+  - ".codex/skills/orquestrador-de-pesquisa-de-fornecedores/SKILL.md"
 ---
 
 # Modelo de Derivação Documental
@@ -16,9 +16,9 @@ derived_from:
 Definir como a base normativa é derivada para instruções operacionais, canais e integrações sem duplicação incoerente.
 
 ## Camadas
-1. Base-mãe normativa: `00_fundacao`, `01_operacao`, `02_qualidade`
-2. Adaptadores de canal: `03_chatgpt_web`, `04_codex`
-3. Artefatos executáveis e registros: `05_integracoes`, `context/`, `memory/`
+1. Base normativa de referência: `00_fundacao`
+2. Adaptador de canal Web: `03_chatgpt_web/04_gpt-instructions-final.md`
+3. Artefato operacional principal: `.codex/skills/orquestrador-de-pesquisa-de-fornecedores/`
 
 ## Regra de prevalência
 - Documento normativo vence documento de canal.
@@ -32,9 +32,9 @@ Definir como a base normativa é derivada para instruções operacionais, canais
 - `context/` concentra contexto carregável por fase, domínio ou caso.
 
 ## Anti-drift
-- Nunca editar GPT instructions finais sem atualizar `03_chatgpt_web/01_gpt-instructions-source.md`.
-- Nunca editar AGENTS.md ou SKILL.md finais sem atualizar primeiro os documentos-fontes em `04_codex/`.
-- Mudanças relevantes devem ser registradas em `08_governanca/02_log-de-decisoes-documentais.md`.
+- Nunca editar GPT instructions finais sem alinhar a skill `orquestrador-de-pesquisa-de-fornecedores`.
+- Nunca editar a operação do sistema fora da skill quando a regra ou o fluxo forem específicos dela.
+- Mudanças relevantes devem priorizar a skill como fonte operacional principal.
 
 ## Uso do agente legado
 - O arquivo legado deve ser tratado como insumo histórico.

@@ -7,7 +7,7 @@ Este arquivo define as instrucoes do projeto para o Codex CLI.
 
 1. Siga a Constitution em `.aiox-core/constitution.md`
 2. Priorize `CLI First -> Observability Second -> UI Third`
-3. Trabalhe por stories em `docs/stories/`
+3. Trabalhe por stories em `.codex/skills/orquestrador-de-pesquisa-de-fornecedores/governanca/stories/`
 4. Nao invente requisitos fora dos artefatos existentes
 <!-- AIOX-MANAGED-END: core -->
 
@@ -71,35 +71,11 @@ Interprete os atalhos abaixo carregando o arquivo correspondente em `.aiox-core/
 Estas regras complementam o AGENTS base para o workflow de pesquisa de fornecedores da Lumina Group.
 
 - Para pesquisas de fornecedores, use como fontes principais:
-  - `docs/03_chatgpt_web/01_gpt-instructions-source.md`
-  - `docs/04_codex/02_skill-catalog-and-pattern.md`
-  - `docs/04_codex/04_comandos-por-fase.md`
-  - `docs/05_integracoes/01_modelo-notion-operacional.md`
-  - `docs/05_integracoes/02_eventos-campos-e-mapeamentos.md`
-- Trate Oil & Gas e MRO como núcleo de especialidade, sem bloquear itens ou serviços atípicos.
-- Em fluxos de pesquisa, mantenha a ordem: triagem, contexto, análise técnica inicial, pesquisa profunda, qualificação, síntese e registro.
-- A entrega padrão de pesquisa deve incluir:
-  - análise técnica curta
-  - datasheet, apenas se for fácil e oficial
-  - NCM provável, quando aplicável
-  - certificações possíveis como recomendação
-  - shortlist com 9 fornecedores sempre que a oferta permitir
-- Priorize distribuidores. Revendedores entram apenas para preencher lacunas e no máximo 4.
-- Se o fabricante já estiver identificado, não sugerir fabricante alternativo sem pedido explícito do usuário.
-- Nunca invente fornecedores, sites, e-mails, telefones ou certificações.
-- Nenhum cadastro ou atualização em Notion pode ocorrer sem autorização explícita do usuário.
-- Para contatos operacionais, siga a regra `1 e-mail = 1 contato`.
-
-## Supplier Research Rules
-
-Estas regras complementam o AGENTS base para o workflow de pesquisa de fornecedores da Lumina Group.
-
-- Para pesquisas de fornecedores, use como fontes principais:
-  - `docs/03_chatgpt_web/01_gpt-instructions-source.md`
-  - `docs/04_codex/02_skill-catalog-and-pattern.md`
-  - `docs/04_codex/04_comandos-por-fase.md`
-  - `docs/05_integracoes/01_modelo-notion-operacional.md`
-  - `docs/05_integracoes/02_eventos-campos-e-mapeamentos.md`
+  - `.codex/skills/orquestrador-de-pesquisa-de-fornecedores/SKILL.md`
+  - `.codex/skills/orquestrador-de-pesquisa-de-fornecedores/referencias/pesquisa/instrucao-canonica-de-pesquisa.md`
+  - `.codex/skills/orquestrador-de-pesquisa-de-fornecedores/referencias/comandos/contratos-dos-comandos.md`
+  - `.codex/skills/orquestrador-de-pesquisa-de-fornecedores/referencias/banco-notion/propriedades-reais-das-bases.md`
+  - `.codex/skills/orquestrador-de-pesquisa-de-fornecedores/referencias/banco-notion/regras-de-cadastro.md`
 - Trate Oil & Gas e MRO como núcleo de especialidade, sem bloquear itens ou serviços atípicos.
 - Em fluxos de pesquisa, mantenha a ordem: triagem, contexto, análise técnica inicial, pesquisa profunda, qualificação, síntese e registro.
 - A entrega padrão de pesquisa deve incluir:

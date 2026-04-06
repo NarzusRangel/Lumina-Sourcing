@@ -7,7 +7,7 @@ owner: "A definir (Lumina Group)"
 reviewed_at: "2026-03-29"
 next_review: "2026-06-29"
 derived_from:
-  - "Arquitetura Nova Para Framework de Pesquisa de Fornecedores.md"
+  - ".codex/skills/orquestrador-de-pesquisa-de-fornecedores/SKILL.md"
 ---
 
 # Visão Geral do Sistema
